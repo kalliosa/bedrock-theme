@@ -8,29 +8,29 @@
  * @since 1.0.0
  */
 
-namespace CMSGuru;
+namespace SKBEDROCK;
 
 /**
  * Enqueue the style.css file.
  * 
  * @since 1.0.0
  */
-function cmsguru_styles() {
+function bedrock_styles() {
 	wp_enqueue_style(
-		'cmsguru-style',
+		'bedrock-style',
 		get_stylesheet_uri(),
 		array(),
 		wp_get_theme()->get( 'Version' )
 	);
 }
-add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\cmsguru_styles' );
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\bedrock_styles' );
 
-if ( ! function_exists( 'cmsguru_setup' ) ) {
-	function cmsguru_setup() {
+if ( ! function_exists( 'bedrock_setup' ) ) {
+	function bedrock_setup() {
     add_theme_support( 'wp-block-styles' );
   }
 }
-add_action( 'after_setup_theme', __NAMESPACE__ . '\cmsguru_setup' );
+add_action( 'after_setup_theme', __NAMESPACE__ . '\bedrock_setup' );
 
 /**
  * Register pattern categories.
@@ -38,11 +38,11 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\cmsguru_setup' );
 function pattern_categories() {
 
 	$block_pattern_categories = array(
-		'cmsguru/card'           => array(
-			'label' => __( 'Cards', 'cmsguru' ),
+		'bedrock/card'           => array(
+			'label' => __( 'Cards', 'bedrock' ),
 		),
-		'cmsguru/call-to-action' => array(
-			'label' => __( 'Call To Action', 'cmsguru' ),
+		'bedrock/call-to-action' => array(
+			'label' => __( 'Call To Action', 'bedrock' ),
 		),
 	);
 
