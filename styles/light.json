@@ -1,8 +1,8 @@
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 2,
-  "title": "Vaalea",
-  "description": "Vaalea teema",
+  "title": "Light",
+  "description": "Light theme",
   "settings": {
     "layout": {
       "contentSize": "840px",

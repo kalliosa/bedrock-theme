@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package cms-guru
+ * @package sk-bedrock
  * @since 1.0.0
  */
 
@@ -41,8 +41,8 @@ function pattern_categories() {
 		'bedrock/card'           => array(
 			'label' => __( 'Cards', 'bedrock' ),
 		),
-		'bedrock/call-to-action' => array(
-			'label' => __( 'Call To Action', 'bedrock' ),
+		'bedrock/call-to-action'           => array(
+			'label' => __( 'Call to action', 'bedrock' ),
 		),
 	);
 
