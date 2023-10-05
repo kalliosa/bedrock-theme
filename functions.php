@@ -5,7 +5,7 @@
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package sk-bedrock
- * @since 1.0.0
+ * @since 0.9.0
  */
 
 namespace SKBEDROCK;
@@ -13,7 +13,7 @@ namespace SKBEDROCK;
 /**
  * Enqueue the style.css file.
  * 
- * @since 1.0.0
+ * @since 0.9.0
  */
 function bedrock_styles() {
 	wp_enqueue_style(
