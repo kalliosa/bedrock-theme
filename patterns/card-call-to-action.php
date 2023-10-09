@@ -14,23 +14,21 @@
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|40","left":"var:preset|spacing|30"}},"border":{"radius":"5px"}},"backgroundColor":"quinary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-quinary-background-color has-background" style="border-radius:5px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--30)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":4,"textColor":"base"} -->
-<h4 class="wp-block-heading has-base-color has-text-color">Title text</h4>
+<div class="wp-block-group"><!-- wp:heading {"level":4,"textColor":"primary"} -->
+<h4 class="wp-block-heading has-primary-color has-text-color">Title text</h4>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"primary-accent"} -->
-<p class="has-primary-accent-color has-text-color">Version 1.0</p>
+<!-- wp:paragraph {"textColor":"tertiary"} -->
+<p class="has-tertiary-color has-text-color">Version 1.0</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:separator {"backgroundColor":"primary-accent","className":"is-style-separator-dotted"} -->
-<hr class="wp-block-separator has-text-color has-primary-accent-color has-alpha-channel-opacity has-primary-accent-background-color has-background is-style-separator-dotted"/>
-<!-- /wp:separator -->
+<div class="wp-block-group">
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"primary"} -->
+<p class="has-primary-color has-text-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

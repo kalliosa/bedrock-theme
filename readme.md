@@ -27,6 +27,9 @@ Add new patters inside "patterns" folder.
 
 Page templates are in "templates" folder.
 
+- Page without title
+- Empty page template for a custom landing page
+
 ### Adding new templates
 
 1. Add template file inside "templates" folder

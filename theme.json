@@ -109,19 +109,6 @@
       "margin": true,
       "blockGap": true,
       "units": ["px", "em", "rem", "vh", "vw"]
-    },
-    "blocks": {
-      "core/heading": {
-        "color": {
-          "palette": [
-            {
-              "slug": "tertiary",
-              "color": "#1d1f35",
-              "name": "Tertiary"
-            }
-          ]
-        }
-      }
     }
   },
   "styles": {
@@ -159,6 +146,11 @@
       "name": "page-home",
       "title": "Page without title",
       "postTypes": ["page", "post"]
+    },
+    {
+      "name": "page-empty",
+      "title": "Page without header and footer",
+      "postTypes": ["page"]
     }
   ]
 }
